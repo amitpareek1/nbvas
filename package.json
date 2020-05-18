@@ -21,7 +21,7 @@
     "fs": "0.0.1-security",
     "got": "^11.1.0",
     "hbs": "~4.0.1",
-    "mongoose": "^4.12.5",
+    "mongoose": "^5.7.5",
     "morgan": "~1.9.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
