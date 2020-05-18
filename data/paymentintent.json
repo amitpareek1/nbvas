@@ -1,0 +1,43 @@
+{
+    "config": {
+        "Data": {
+            "Initiation": {
+                "InstructionIdentification": "ACME412",
+                "EndToEndIdentification": "FRESCO.21302.GFX.20",
+                "InstructedAmount": {
+                    "Amount": "180.88",
+                    "Currency": "ZAR"
+                },
+                "CreditorAgent": {
+                    "SchemeName": "ZASortCode",
+                    "Identification": "470010"
+                },
+                "CreditorAccount": {
+                    "SchemeName": "BBAN",
+                    "Identification": "1009427709",
+                    "Name": "ACME Inc",
+                    "SecondaryIdentification": "0002"
+                },
+                "RemittanceInformation": {
+                    "Reference": "FRESCO-101",
+                    "Unstructured": "Internal ops code 5120101"
+                }
+            }
+        },
+        "Risk": {
+            "PaymentContextCode": "Other",
+            "MerchantCategoryCode": "5967",
+            "MerchantCustomerIdentification": "053598653254",
+            "DeliveryAddress": {
+                "AddressLine": [
+                    "Flat 7"
+                ],
+                "StreetName": "Acacia Avenue",
+                "BuildingNumber": "27",
+                "PostCode": "GU31 2ZZ",
+                "TownName": "Sparsholt",
+                "Country": "UK"
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<div class='checkout'>
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 main">
+        <h1>Thanks for shopping with us!</h1>
+       
+        
+        <div id="charge-error" class="alert alert-danger {{#if noError}}invisible{{/if}}">
+            <h4>Here is your payment submission id : {{paymentsubmissionid}} </h4>
+            <h4> Please take a note for future reference </h4>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+<script src="https://js.stripe.com/v2/"></script>
+<script src="javascripts/checkout.js"></script>

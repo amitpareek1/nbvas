@@ -1,0 +1,21 @@
+{
+    "credentials": {
+        "id": "7211a2fd-cf24-4215-a471-5d525d2bc5da",
+        "secret": "U6aQ8kY8tD1pK1vI8aJ5sS8tQ0wO7uY1cE5kQ8bA2aD4gB6iT4"
+    },
+    "url": {
+        "auth": {
+            "tokenHost": "https://api.nedbank.co.za",
+            "tokenPath": "/apimarket/sandbox/nboauth/oauth20/token",
+            "authorizePath": "/apimarket/sandbox/nboauth/oauth20/authorize",
+            "callback": "http://localhost:3000/callback"
+        }
+    },
+    "scope":{
+        "payments":"payment",
+        "accounts":"accounts",
+        "tpp_client_credentials" :"tpp_client_credentials"
+
+    }
+}
+

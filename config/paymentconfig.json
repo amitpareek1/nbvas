@@ -1,0 +1,8 @@
+{
+
+  "payment" :{
+      "intent" : "https://api.nedbank.co.za/apimarket/sandbox/open-banking/payments",
+      "domesticpayment":"https://api.nedbank.co.za/apimarket/sandbox/open-banking/payment-submissions"
+  }
+
+}

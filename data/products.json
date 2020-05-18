@@ -1,0 +1,49 @@
+{
+	"product": [{
+            "_id" : 1,
+			"imagePath": "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/ROM_level/V167632468_Category_PageRAM_Level_campaign_2_._SY300_CB426115143_.jpg",
+			"title": "Redme",
+			"description": "A 50",
+			"price": 6000,
+			"__v": 0
+		},
+		{
+            "_id" : 2,
+			"imagePath": "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/ROM_level/V167632468_Category_PageRAM_Level_campaign_1_._SY300_CB426115143_.jpg",
+			"title": "A 60",
+			"description": "Amolded display",
+			"price": 3000,
+			"__v": 0
+		},
+		{
+            "_id" : 3,
+			"imagePath": "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/ROM_level/V167632468_Category_PageRAM_Level_campaign_._SY300_CB424350858_.jpg",
+			"title": "One Plus",
+			"description": "Never Settle",
+			"price": 45000,
+			"__v": 0
+		},
+		{
+            "_id" : 4,
+			"imagePath": "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/ROM_level/V167632468_Category_PageRAM_Level_campaign_2_._SY300_CB426115143_.jpg",
+			"title": "iPhone",
+			"description": "Pro",
+			"price": 18,
+			"__v": 0
+		},
+		{"_id" : 5,
+			"imagePath": "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/ROM_level/V167632468_Category_PageRAM_Level_campaign_3_._SY300_CB426115143_.jpg",
+			"title": "Vivo",
+			"description": "M 50",
+			"price": 62,
+			"__v": 0
+		},
+		{"_id" : 6,
+			"imagePath": "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/ROM_level/V167632468_Category_PageRAM_Level_campaign_2_._SY300_CB426115143_.jpg",
+			"title": "iPhone",
+			"description": "Pro",
+			"price": 72000,
+			"__v": 0
+		}
+	]
+}

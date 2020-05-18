@@ -1,0 +1,44 @@
+<style>
+    .myButton {
+        background: url(/nedbanklogo.png) no-repeat;
+        cursor: pointer;
+        border: 1;
+        width: 107px;
+        height: 110px;
+    }
+.myButton1 {
+        background: url(/Payment-options-03.png) no-repeat;
+        cursor: pointer;
+        border: 1;
+        width: 549px;
+        height: 121px;
+    }
+    .myButton1:active
+
+    /* use Dot here */
+        {
+        background: url(/idbpgw.jpg) no-repeat;
+    }
+</style>
+<div class='checkout'>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 main">
+            <h1>Checkout</h1>
+            <h4>Your Total: Rs. {{total}}</h4>
+            <div id="charge-error" class="alert alert-danger {{#if noError}}invisible{{/if}}">
+                {{errMsg}}
+            </div>-
+            <p>Pay using below payment options </p>
+            <form action="/checkout" method="post" id="checkout-form">
+                <input class="myButton" type="submit" value=""> 
+                 
+
+            </form>
+            <input class="myButton1" type="submit" value="">
+        </div>
+    </div>
+</div>
+
+
+<script src="javascripts/checkout.js"></script>
